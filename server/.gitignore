@@ -1,23 +1,16 @@
 HELP.md
-.gradle
-build/
-*.db
-*.properties
-resources/
-papers/
-*.pdf
-*.doc
-*.docx
-!gradle/wrapper/gradle-wrapper.jar
-!**/src/main/**/build/
-!**/src/test/**/build/
+
+!**/src/main/**/resources/application.properties
+!**/src/main/**/resources/cert.p12
+!**/src/main/**/resources/keystore.p12
+!**/src/main/**/resources/Papers.mv.db
+
 
 ### STS ###
 .apt_generated
 .classpath
 .factorypath
 .project
-.properties
 .settings
 .springBeans
 .sts4-cache

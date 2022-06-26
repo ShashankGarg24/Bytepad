@@ -1,0 +1,104 @@
+com/Bytepad/server/repositories/CourseRepo.java
+ com.Bytepad.server.repositories.CourseRepo
+com/Bytepad/server/DTOs/heirarchicalPaperStructure/PaperTypeDTO.java
+ com.Bytepad.server.DTOs.heirarchicalPaperStructure.PaperTypeDTO
+com/Bytepad/server/configuration/JWTUtils.java
+ com.Bytepad.server.configuration.JWTUtils
+com/Bytepad/server/serviceInterface/UserInterface.java
+ com.Bytepad.server.serviceInterface.UserInterface
+com/Bytepad/server/repositories/DocumentRepo.java
+ com.Bytepad.server.repositories.DocumentRepo
+com/Bytepad/server/repositories/BranchRepo.java
+ com.Bytepad.server.repositories.BranchRepo
+com/Bytepad/server/repositories/SessionRepo.java
+ com.Bytepad.server.repositories.SessionRepo
+com/Bytepad/server/Utilities/FileUploadingService.java
+ com.Bytepad.server.Utilities.FileUploadingService
+com/Bytepad/server/Utilities/Validators.java
+ com.Bytepad.server.Utilities.Validators
+com/Bytepad/server/controllers/AdminController.java
+ com.Bytepad.server.controllers.AdminController
+com/Bytepad/server/DTOs/heirarchicalPaperStructure/SessionDTO.java
+ com.Bytepad.server.DTOs.heirarchicalPaperStructure.SessionDTO
+com/Bytepad/server/DTOs/DuplicateFileChecker.java
+ com.Bytepad.server.DTOs.DuplicateFileChecker
+com/Bytepad/server/models/Branch.java
+ com.Bytepad.server.models.Branch
+com/Bytepad/server/DTOs/UploadResponse.java
+ com.Bytepad.server.DTOs.UploadResponse
+com/Bytepad/server/exceptions/InvalidField.java
+ com.Bytepad.server.exceptions.InvalidField
+com/Bytepad/server/configuration/SecurityConfiguration.java
+ com.Bytepad.server.configuration.SecurityConfiguration
+com/Bytepad/server/repositories/ExamRepo.java
+ com.Bytepad.server.repositories.ExamRepo
+com/Bytepad/server/Utilities/MailUtilities.java
+ com.Bytepad.server.Utilities.MailUtilities
+com/Bytepad/server/models/AndroidStatus.java
+ com.Bytepad.server.models.AndroidStatus
+com/Bytepad/server/configuration/JWTRequestFilter.java
+ com.Bytepad.server.configuration.JWTRequestFilter
+com/Bytepad/server/serviceImplementation/AdminService.java
+ com.Bytepad.server.serviceImplementation.AdminService
+com/Bytepad/server/DTOs/CourseBranchDTO.java
+ com.Bytepad.server.DTOs.CourseBranchDTO
+com/Bytepad/server/DTOs/SessionExamFields.java
+ com.Bytepad.server.DTOs.SessionExamFields
+com/Bytepad/server/serviceImplementation/AdminDetails.java
+ com.Bytepad.server.serviceImplementation.AdminDetails
+com/Bytepad/server/exceptions/EmptyField.java
+ com.Bytepad.server.exceptions.EmptyField
+com/Bytepad/server/DTOs/heirarchicalPaperStructure/BranchDTO.java
+ com.Bytepad.server.DTOs.heirarchicalPaperStructure.BranchDTO
+com/Bytepad/server/models/Exam.java
+ com.Bytepad.server.models.Exam
+com/Bytepad/server/serviceInterface/AdminInterface.java
+ com.Bytepad.server.serviceInterface.AdminInterface
+com/Bytepad/server/DTOs/LoginResponse.java
+ com.Bytepad.server.DTOs.LoginResponse
+com/Bytepad/server/models/Document.java
+ com.Bytepad.server.models.Document
+ com.Bytepad.server.models.Document$PaperType
+ com.Bytepad.server.models.Document$SemesterType
+com/Bytepad/server/exceptions/UsernameAlreadyExist.java
+ com.Bytepad.server.exceptions.UsernameAlreadyExist
+com/Bytepad/server/DTOs/DocumentDTO.java
+ com.Bytepad.server.DTOs.DocumentDTO
+com/Bytepad/server/DTOs/FieldsDTO.java
+ com.Bytepad.server.DTOs.FieldsDTO
+com/Bytepad/server/serviceImplementation/UserService.java
+ com.Bytepad.server.serviceImplementation.UserService
+com/Bytepad/server/ServerApplication.java
+ com.Bytepad.server.ServerApplication
+com/Bytepad/server/models/Session.java
+ com.Bytepad.server.models.Session
+com/Bytepad/server/repositories/AdminRepo.java
+ com.Bytepad.server.repositories.AdminRepo
+com/Bytepad/server/models/CourseBranch.java
+ com.Bytepad.server.models.CourseBranch
+com/Bytepad/server/DTOs/AddFieldDTO.java
+ com.Bytepad.server.DTOs.AddFieldDTO
+com/Bytepad/server/Utilities/FileDeletingService.java
+ com.Bytepad.server.Utilities.FileDeletingService
+com/Bytepad/server/controllers/UserController.java
+ com.Bytepad.server.controllers.UserController
+com/Bytepad/server/DTOs/PaperResponse.java
+ com.Bytepad.server.DTOs.PaperResponse
+com/Bytepad/server/configuration/WebConfigurer.java
+ com.Bytepad.server.configuration.WebConfigurer
+com/Bytepad/server/controllers/RedirectController.java
+ com.Bytepad.server.controllers.RedirectController
+com/Bytepad/server/models/Admin.java
+ com.Bytepad.server.models.Admin
+com/Bytepad/server/models/Course.java
+ com.Bytepad.server.models.Course
+com/Bytepad/server/DTOs/heirarchicalPaperStructure/ExamDTO.java
+ com.Bytepad.server.DTOs.heirarchicalPaperStructure.ExamDTO
+com/Bytepad/server/repositories/AndroidStatusRepo.java
+ com.Bytepad.server.repositories.AndroidStatusRepo
+com/Bytepad/server/Utilities/DTOconverters.java
+ com.Bytepad.server.Utilities.DTOconverters
+com/Bytepad/server/repositories/CourseBranchRepo.java
+ com.Bytepad.server.repositories.CourseBranchRepo
+com/Bytepad/server/DTOs/heirarchicalPaperStructure/CourseDTO.java
+ com.Bytepad.server.DTOs.heirarchicalPaperStructure.CourseDTO

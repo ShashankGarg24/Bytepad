@@ -1,0 +1,2 @@
+com/Bytepad/server/ServerApplicationTests.java
+ com.Bytepad.server.ServerApplicationTests
