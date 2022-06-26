@@ -1,0 +1,17 @@
+.Filter_navbar{
+    font-family: 'Gilroy';
+    position: sticky;
+    top:0; 
+    width:100% !important;
+    background-color: white;
+    height: 8.8vh;
+    display: flex !important;
+    align-items: center;
+    list-style: none;
+    box-shadow: inset 0px -2px 0px rgba(0, 26, 90, 0.08);
+}
+
+.Filter_navbar img{
+    margin-left:3rem;
+    margin-right:5rem;
+}

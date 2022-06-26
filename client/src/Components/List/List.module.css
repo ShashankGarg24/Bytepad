@@ -1,0 +1,56 @@
+.List_container{
+    margin:80px;
+    margin-right: 50px;
+ 
+}
+
+
+.List{
+    display:flex;
+    margin-bottom:20px;
+    justify-content: space-between;
+    align-items:center;
+        /* width: 1016px; */
+    max-width: 1016px;
+    width:80%;
+    height: 56px;
+    font-family: Gilroy;
+    font-style: normal;
+    background: #FFFFFF;
+    border: 1px solid #E5E8EF;
+    border-radius: 12px;
+}
+.List_section1{
+
+    color: #546076;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    margin-left:30px;
+}
+
+
+.List_section2{
+    margin-right:30px;
+    display:flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.List_section2 span{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: right;
+    letter-spacing: 0.03em;
+    color: #A9B0BA;
+    margin-right:20px;
+}
+
+
+.List_section2 img{
+    width: 17px;
+    height:17px;
+    margin-right:20px;
+}

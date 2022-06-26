@@ -1,0 +1,316 @@
+.home{
+  height: 92vh;
+  background-image: url(../../assets/images/background.png);
+  background-position: center;
+  background-size: contain;
+  background-color: #fbfbfb;
+}
+
+.home_section{
+  padding-top:2rem;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo img{
+  width:30px;
+  margin-right:20px;
+}
+
+.logo p{
+  font-style:italic;
+  margin-left:0.7rem;
+  color:#546076;
+  font-size:2.3rem;
+  letter-spacing: 0.07rem;
+}
+
+.heading{
+  margin-top:2rem;
+  color:#546076;
+  line-height: 32px;
+  font-size:1.3rem;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/* Lower green banner */
+.lower_banner{
+  min-height: 96vh;
+  background-color: #3BD780;
+  padding: 10% 10% 7% 10%;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.lower_banner .left_text{
+  flex-grow: 1;
+  
+}
+
+.text_header{
+  font-size: 3rem;
+  letter-spacing: 0.01em;
+  /* width: 450px; */
+  font-weight: 700;
+  line-height: 62px;
+  color:white;
+  white-space: nowrap;
+}
+
+.small_text_head,
+.small_text_lower{
+  font-size: 15.8px;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  color:white;
+  white-space: nowrap;
+}
+
+.small_text_head{
+  margin-top: 20px;
+}
+
+.small_text_lower{
+  margin-bottom: 20px;
+}
+
+.small_text{
+  font-size: 15.8px;
+  font-weight: 460;
+  margin: 10px 0px;
+  color:white;
+}
+
+.playButton{
+  cursor: pointer;
+  height: 50px;
+}
+
+.qrCode{
+  background-color: #ffffff;
+  color: #546076;
+  font-size: 14px;
+  padding: 8px 16px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+
+.qrCode i{
+  margin-right: 7px;
+
+}
+
+.right_img{
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.right_img img{
+  max-width:160px;
+  height:auto;
+}
+
+.right_img .firstPhone{
+  /* transform: translateX(20%); */
+  margin-right: 23%;
+}
+
+/* 
+.right_img .thirdPhone{
+  transform: translateX(-20%);
+} */
+
+.right_img .secondPhone{
+  max-width: 190px;
+  /* width: 95px; */
+  z-index: 99;
+  position: absolute;
+}
+
+
+footer{
+  color: #546076;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 8px 0px;
+  font-size: 13px;
+  font-weight: 450;
+}
+
+footer span{
+  margin-right: 8px;
+}
+
+footer img{
+  width: 13px;
+}
+
+.modal-dialog{
+  display: flex;
+  justify-content: center;
+}
+
+.modal .modal-content{
+  padding: 24px;
+  width: fit-content;
+  position: relative;
+  border-radius: 18px;
+}
+
+.qrModal h5{
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.qrModal i{
+  position: absolute;
+  top: 8.2%;
+  right: 10%;
+  cursor: pointer;
+}
+
+.qrModal .scanner{
+  padding: 10px;
+  border: #ccc 1.5px solid;
+  border-radius: 6px;
+  margin-top: 20px;
+  width: fit-content;
+  margin-bottom: 16px;
+}
+
+.qrModal .scanner canvas{
+  height: 150px !important;
+  width: 150px !important;
+}
+
+.qrModal .small{
+  font-size: 12.5px;
+  font-weight: 450;
+  margin-bottom: 0px;
+  text-align: center;
+  font-family: 'Gilroy';
+}
+
+
+@media (max-width:930px){
+
+  .lower_banner{
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+  }
+
+  .right_img{
+    margin-top:100px;
+  }
+  .left_text{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .small_text{
+    display:none;
+  }
+  .qrCode{
+    display:none;
+  }
+
+  .small_text_head,
+  .small_text_lower{
+
+    font-weight: bold;
+    letter-spacing: 0.02em;
+  }
+  
+  .small_text_head{
+    margin-top: 0px;
+  }
+
+  .small_text_lower{
+    margin-bottom: 25px;
+  }
+
+}
+
+
+/* # Mobile */
+@media (max-width: 450px){
+  
+    .text_header{
+      font-size: 2.5rem;
+      line-height: 42px;
+    }
+  
+    .right_img{
+      margin-bottom:30px;
+    }
+
+    .right_img img{
+      max-width:120px;
+    }
+
+    .right_img .secondPhone{
+      max-width: 160px;
+    }
+
+    .small_text_head,
+    .small_text_lower{
+      font-size:14px;
+  }
+
+
+  }
+
+ @media (max-width:375px){
+
+    .text_header{
+      font-size: 2rem;
+      line-height: 32px;
+    }
+
+    .right_img img{
+      max-width:100px;
+    }
+
+    .right_img .secondPhone{
+      max-width: 140px;
+    }
+    .small_text_head,
+    .small_text_lower{
+      font-size:13px;
+  }
+
+ } 
+
+  /* # Tablet */
+  @media (max-width: 768px) {
+
+}
+
+/* # Desktop */
+@media (max-width: 992px){
+
+}
+
+/* # Huge */
+@media(max-width: 1280px) {
+
+}
